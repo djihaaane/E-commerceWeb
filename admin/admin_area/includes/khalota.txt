@@ -1,0 +1,2 @@
+INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_image`, `admin_email`, `salt_admin`, `password_admin`, `numtel_admin`) 
+VALUES (NULL, 'dfg', 'asdf', 'aswdfg', 'asdfg', 'sdfg', 'zxdf');
