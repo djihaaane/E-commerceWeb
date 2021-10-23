@@ -33,7 +33,7 @@ else {
 
 <div class="row" ><!-- 2 row Starts -->
 
-<div  class="p-4 p-md-5 pt-5" ><!-- col-lg-12 Starts -->
+<div  class="p-4 p-md-5 pt-5 mx-auto" ><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default" ><!-- panel panel-default Starts -->
 
@@ -99,23 +99,24 @@ $i++;
 
 
 <td>
-
+<button class="suppBtn">
 <a href="index.php?delete_cat=<?php echo $cat_id; ?>" >
 
 <i class="fa fa-trash-o" ></i> Delete
 
 </a>
-
+</button>
 </td>
 
 <td>
+<button class="editBtn">
 
 <a href="index.php?edit_cat=<?php echo $cat_id; ?>" >
 
 <i class="fa fa-pencil" ></i> Edit
 
 </a>
-
+</button>
 </td>
 
 </tr>

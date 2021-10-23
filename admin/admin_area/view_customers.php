@@ -121,6 +121,7 @@ $i++;
 <td><?php echo $c_contact; ?></td>
 
 <td>
+<button class="suppBtn">
 
 <a href="index.php?customer_delete=<?php echo $c_id; ?>" >
 
@@ -128,7 +129,7 @@ $i++;
 
 </a>
 
-
+</button>
 </td>
 
 

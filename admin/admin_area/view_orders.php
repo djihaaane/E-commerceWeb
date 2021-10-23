@@ -33,7 +33,7 @@ else {
 
 <div class="row"><!-- 2 row Starts -->
 
-<div  class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
+<div  class="col-lg-12"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -132,7 +132,7 @@ echo $customer_email;
  ?>
  </td>
 
-<td bgcolor="yellow" ><?php echo $invoice_no; ?></td>
+<td bgcolor="#4e50fb" ><?php echo $invoice_no; ?></td>
 
 <td><?php echo $product_title; ?></td>
 
@@ -179,13 +179,14 @@ echo $order_status='Complete';
 </td>
 
 <td>
+<button class="suppBtn">
 
 <a href="index.php?order_delete=<?php echo $order_id; ?>" >
 
 <i class="fa fa-trash-o" ></i> Delete
 
 </a>
-
+</button>
 </td>
 
 

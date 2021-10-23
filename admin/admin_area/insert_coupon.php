@@ -33,7 +33,7 @@ else {
 
 <div class="row"><!-- 2 row Starts --->
 
-<div  class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
+<div  class="p-4 p-md-5 pt-5 mx-auto"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -55,7 +55,7 @@ else {
 
 <label class="col-md-3 control-label"> Coupon Title </label>
 
-<div class="col-md-6">
+<div class="col-md-8">
 
 <input type="text" name="coupon_title" class="form-control">
 
@@ -67,7 +67,7 @@ else {
 
 <label class="col-md-3 control-label"> Coupon Price </label>
 
-<div class="col-md-6">
+<div class="col-md-8">
 
 <input type="text" name="coupon_price" class="form-control">
 
@@ -79,7 +79,7 @@ else {
 
 <label class="col-md-3 control-label"> Coupon Code </label>
 
-<div class="col-md-6">
+<div class="col-md-8">
 
 <input type="text" name="coupon_code" class="form-control">
 
@@ -91,7 +91,7 @@ else {
 
 <label class="col-md-3 control-label"> Coupon Limit </label>
 
-<div class="col-md-6">
+<div class="col-md-8">
 
 <input type="number" name="coupon_limit" value="1" class="form-control">
 
@@ -103,7 +103,7 @@ else {
 
 <label class="col-md-3 control-label">Select coupon for Product Or bundle</label>
 
-<div class="col-md-6">
+<div class="col-md-8">
 
 <select name="product_id" class="form-control">
 
@@ -163,7 +163,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class=" btn btn-primary form-control" value=" Insert Coupon ">
+<input type="submit" name="submit" class=" btn btn-primary form-control mx-auto" value=" Insert Coupon ">
 
 </div>
 

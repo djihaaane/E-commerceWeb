@@ -107,7 +107,7 @@ $i++;
 
 <td><?php echo $i; ?></td>
 
-<td bgcolor="yellow" ><?php echo $invoice_no; ?></td>
+<td bgcolor="#0d98ba" ><?php echo $invoice_no; ?></td>
 
 <td>$<?php echo $amount; ?></td>
 
@@ -120,13 +120,14 @@ $i++;
 <td><?php echo $payment_date; ?></td>
 
 <td>
+<button class="suppBtn">
 
 <a href="index.php?payment_delete=<?php echo $payment_id; ?>" >
 
 <i class="fa fa-trash-o" ></i> Delete
 
 </a>
-
+</button>
 </td>
 
 

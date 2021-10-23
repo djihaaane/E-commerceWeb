@@ -18,7 +18,6 @@ else {
 
 <div class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
 
-<h1 class="page-header">Dashboard</h1>
 
 <ol class="breadcrumb"><!-- breadcrumb Starts -->
 
@@ -39,7 +38,7 @@ else {
 
 <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 Starts -->
 
-<div class="panel panel-primary"><!-- panel panel-primary Starts -->
+<div class="panel panel-blue"><!-- panel panel-primary Starts -->
 
 <div class="panel-heading"><!-- panel-heading Starts -->
 
@@ -84,7 +83,7 @@ else {
 
 <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 Starts -->
 
-<div class="panel panel-green"><!-- panel panel-green Starts -->
+<div class="panel panel-blue"><!-- panel panel-green Starts -->
 
 <div class="panel-heading"><!-- panel-heading Starts -->
 
@@ -129,7 +128,7 @@ else {
 
 <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 Starts -->
 
-<div class="panel panel-yellow"><!-- panel panel-yellow Starts -->
+<div class="panel panel-blue"><!-- panel panel-yellow Starts -->
 
 <div class="panel-heading"><!-- panel-heading Starts -->
 
@@ -174,7 +173,7 @@ else {
 
 <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 Starts -->
 
-<div class="panel panel-red"><!-- panel panel-red Starts -->
+<div class="panel panel-blue"><!-- panel panel-red Starts -->
 
 <div class="panel-heading"><!-- panel-heading Starts -->
 
@@ -221,7 +220,7 @@ else {
 
 <div class="row" ><!-- 3 row Starts -->
 
-<div class="col-lg-8" ><!-- col-lg-8 Starts -->
+<div class="col-lg-9" ><!-- col-lg-8 Starts -->
 
 <div class="panel panel-primary" ><!-- panel panel-primary Starts -->
 
@@ -351,7 +350,7 @@ View All Orders <i class="fa fa-arrow-circle-right" ></i>
 
 </div><!-- col-lg-8 Ends -->
 
-<div class="col-md-4"><!-- col-md-4 Starts -->
+<div class="col-md-3"><!-- col-md-4 Starts -->
 
 <div class="panel"><!-- panel Starts -->
 

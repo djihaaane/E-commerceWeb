@@ -74,7 +74,7 @@ $product_title = $row_products['product_title'];
 
 <div class="row"><!-- 2 row Starts --->
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="col-lg-10 mx-auto"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -205,7 +205,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="col-md-6">
 
-<input type="submit" name="update" class=" btn btn-primary form-control" value=" Update Coupon ">
+<input type="submit" name="update" class=" btn btn-primary form-control mx-auto" value=" Update Coupon ">
 
 </div>
 

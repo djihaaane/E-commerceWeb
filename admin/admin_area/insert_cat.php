@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 if(!isset($_SESSION['admin_email'])){
 
@@ -32,7 +32,7 @@ else {
 
 <div class="row"><!-- 2 row Starts -->
 
-<div  class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
+<div  class="p-4 p-md-5 pt-5 mx-auto"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -98,7 +98,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" value="Insert Category" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Insert Category" class="btn btn-primary form-control mx-auto">
 
 </div>
 

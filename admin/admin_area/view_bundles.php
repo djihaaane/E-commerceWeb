@@ -63,7 +63,7 @@ else {
 <th>Bundle Price</th>
 <th>Bundle sold</th>
 <th>Bundle Keywords</th>
-<th>Bundle Date</th>
+<th>Bundle &nbsp; Date</th>
 <th>Bundle Delete</th>
 <th>Bundle Edit</th>
 
@@ -126,23 +126,24 @@ echo $count;
 <td><?php echo $pro_date; ?></td>
 
 <td>
-
+<button class="suppBtn">
 <a href="index.php?delete_bundle=<?php echo $pro_id; ?>">
 
 <i class="fa fa-trash-o"> </i> Delete
 
 </a>
-
+</button>
 </td>
 
 <td>
+<button class="editBtn">
 
 <a href="index.php?edit_bundle=<?php echo $pro_id; ?>">
 
 <i class="fa fa-pencil"> </i> Edit
 
 </a>
-
+</button>
 </td>
 
 </tr>

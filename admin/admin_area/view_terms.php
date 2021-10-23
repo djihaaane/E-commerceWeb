@@ -78,13 +78,14 @@ $term_desc = substr($row_terms['term_desc'],0,400);
 
 </div><!-- panel-heading Ends -->
 
-<div class="panel-body"><!-- panel-body Starts -->
+<div class="panel-body"  style="border: 0px;"><!-- panel-body Starts -->
 
 <?php echo $term_desc; ?>
 
 </div><!-- panel-body Ends -->
 
-<div class="panel-footer"><!-- panel-footer Starts -->
+<div class="panel-footer" style="padding-left: 50px;"><!-- panel-footer Starts -->
+<button class="suppBtn">
 
 <a href="index.php?delete_term=<?php echo $term_id; ?>" class="pull-left">
 
@@ -92,13 +93,14 @@ $term_desc = substr($row_terms['term_desc'],0,400);
 
 </a>
 
-
+</button>
+<button class="editBtn">
 <a href="index.php?edit_term=<?php echo $term_id; ?>" class="pull-right">
 
 <i class="fa fa-pencil"></i> Edit
 
 </a>
-
+</button>
 
 <div class="clearfix"> </div>
 

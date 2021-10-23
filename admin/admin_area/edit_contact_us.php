@@ -53,7 +53,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="row"><!-- 2 row Starts -->
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="col-lg-10 mx-auto"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -115,7 +115,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value=" Update Contact Us ">
+<input type="submit" name="submit" class="btn btn-primary form-control mx-auto" value=" Update Contact Us ">
 
 </div>
 

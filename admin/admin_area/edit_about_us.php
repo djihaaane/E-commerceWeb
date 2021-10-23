@@ -122,7 +122,7 @@ $about_desc = $row_about_us['about_desc'];
 
 <div class="col-md-8">
 
-<input type="submit" name="submit" value="Update About Us Page" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Update About Us Page" class="btn btn-primary form-control mx-auto">
 
 </div>
 

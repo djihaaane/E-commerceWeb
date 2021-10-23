@@ -32,7 +32,7 @@ else {
 
 <div class="row"><!-- 2 row Starts -->
 
-<div  class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
+<div  class="col-lg-10 mx-auto"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -54,7 +54,7 @@ else {
 
 <label class="col-md-3 control-label"> Enquiry Title </label>
 
-<div class="col-md-6">
+<div class="col-md-8">
 
 <input type="text" name="enquiry_title" class="form-control">
 
@@ -68,7 +68,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value="Insert Enquiry Type">
+<input type="submit" name="submit" class="btn btn-primary form-control mx-auto" value="Insert Enquiry Type">
 
 </div>
 

@@ -34,7 +34,7 @@ else {
 
 <div class="row" ><!-- 2 row Starts -->
 
-<div  class="p-4 p-md-5 pt-5" ><!-- col-lg-12 Starts -->
+<div  class="p-4 p-md-5 pt-5 mx-auto" ><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default" ><!-- panel panel-default Starts -->
 
@@ -65,9 +65,7 @@ else {
 
 <th>User Image:</th>
 
-<th>User Country:</th>
 
-<th>User Job:</th>
 
 <th>Delete User:</th>
 
@@ -94,9 +92,6 @@ $admin_email = $row_admin['admin_email'];
 
 $admin_image = $row_admin['admin_image'];
 
-$admin_country = $row_admin['admin_country'];
-
-$admin_job = $row_admin['admin_job'];
 
 
 
@@ -112,18 +107,17 @@ $admin_job = $row_admin['admin_job'];
 
 <td><img src="admin_images/<?php echo $admin_image; ?>" width="60" height="60" ></td>
 
-<td><?php echo $admin_country; ?></td>
 
-<td><?php echo $admin_job; ?></td>
 
 <td>
+<button class="suppBtn">
 
 <a href="index.php?user_delete=<?php echo $admin_id; ?>" >
 
 <i class="fa fa-trash-o" ></i> Delete
 
 </a>
-
+</button>
 </td>
 
 

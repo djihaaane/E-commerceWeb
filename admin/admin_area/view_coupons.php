@@ -126,23 +126,25 @@ $i++;
 <td><?php echo $coupon_used; ?></td>
 
 <td>
+<button class="suppBtn">
 
 <a href="index.php?delete_coupon=<?php echo $coupon_id; ?>">
 
 <i class="fa fa-trash-o"></i> Delete
 
 </a>
-
+</button>
 </td>
 
 <td>
+<button class="editBtn">
 
 <a href="index.php?edit_coupon=<?php echo $coupon_id; ?>">
 
 <i class="fa fa-pencil"></i> Edit
 
 </a>
-
+</button>
 </td>
 
 </tr>

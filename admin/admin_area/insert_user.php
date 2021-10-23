@@ -35,7 +35,7 @@ else {
 
 <div class="row" ><!-- 2 row Starts -->
 
-<div  class="p-4 p-md-5 pt-5" ><!-- col-lg-12 Starts -->
+<div  class="col-lg-9 mx-auto" ><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default" ><!-- panel panel-default Starts -->
 
@@ -59,7 +59,7 @@ else {
 
 <label class="col-md-3 control-label">User Name: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="admin_name" class="form-control" required>
 
@@ -72,7 +72,7 @@ else {
 
 <label class="col-md-3 control-label">User Email: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="admin_email" class="form-control" required>
 
@@ -85,7 +85,7 @@ else {
 
 <label class="col-md-3 control-label">User Password: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="password" name="admin_pass" class="form-control" required>
 
@@ -97,7 +97,7 @@ else {
 
 <label class="col-md-3 control-label">User Country: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="admin_country" class="form-control" required>
 
@@ -110,7 +110,7 @@ else {
 
 <label class="col-md-3 control-label">User Job: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="admin_job" class="form-control" required>
 
@@ -123,7 +123,7 @@ else {
 
 <label class="col-md-3 control-label">User Contact: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="admin_contact" class="form-control" required>
 
@@ -136,7 +136,7 @@ else {
 
 <label class="col-md-3 control-label">User About: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <textarea name="admin_about" class="form-control" rows="3"> </textarea>
 
@@ -148,7 +148,7 @@ else {
 
 <label class="col-md-3 control-label">User Image: </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="file" name="admin_image" class="form-control" required>
 
@@ -161,9 +161,9 @@ else {
 
 <label class="col-md-3 control-label"></label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
-<input type="submit" name="submit" value="Insert User" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Insert User" class="btn btn-primary form-control mx-auto">
 
 </div><!-- col-md-6 Ends -->
 

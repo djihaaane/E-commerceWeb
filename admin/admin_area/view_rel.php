@@ -129,22 +129,25 @@ $i++;
 <td> <?php echo $b_title; ?> </td>
 
 <td>
+<button class="suppBtn">
 
 <a href="index.php?delete_rel=<?php echo $rel_id; ?>">
 
 <i class="fa fa-trash-o"></i> Delete
 
 </a>
-
+</button>
 </td>
 
 <td>
+<button class="editBtn">
 
 <a href="index.php?edit_rel=<?php echo $rel_id; ?>">
 
 <i class="fa fa-pencil"></i> Edit
 
 </a>
+</button>
 
 </td>
 

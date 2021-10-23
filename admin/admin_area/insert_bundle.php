@@ -46,7 +46,7 @@ else {
 
 <div class="row"><!-- 2 row Starts --> 
 
-<div  class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
+<div   class="col-lg-12"><!-- col-lg-12 Starts -->
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
 
@@ -280,11 +280,11 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <label class="col-md-3 control-label" > Bundle Tabs </label>
 
-<div class="col-md-6" >
+<div class="col-md-8" >
 
 <ul class="nav nav-tabs"><!-- nav nav-tabs Starts -->
 
-<li class="active">
+<li>
 
 <a data-toggle="tab" href="#description"> Bundle Description </a>
 

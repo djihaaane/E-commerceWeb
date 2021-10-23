@@ -8375,8 +8375,8 @@ a[data-toggle="collapse"] {
         margin: 3px;
     border: none;
     cursor: pointer;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    
 }
 .suppBtn{
   background-color: #ff5148;
@@ -8387,8 +8387,7 @@ a[data-toggle="collapse"] {
     margin: 3px;
     border: none;
     cursor: pointer;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 .suppBtn:hover{
     background-color: #d4443b ;

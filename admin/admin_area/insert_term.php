@@ -37,7 +37,7 @@ else {
 <div class="row"><!-- 2 row Starts -->
 
 
-<div  class="p-4 p-md-5 pt-5"><!-- col-lg-12 Starts -->
+<div  class="col-lg-10 mx-auto"><!-- col-lg-12 Starts -->
 
 
 <div class="panel panel-default"><!-- panel panel-default Starts -->
@@ -60,7 +60,7 @@ else {
 
 <label class="col-md-3 control-label"> Term Title </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="term_title" class="form-control" >
 
@@ -72,7 +72,7 @@ else {
 
 <label class="col-md-3 control-label"> Term Description </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <textarea name="term_desc" class="form-control" rows="6" cols="19" ></textarea>
 
@@ -84,7 +84,7 @@ else {
 
 <label class="col-md-3 control-label"> Term Link </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
 <input type="text" name="term_link" class="form-control" >
 
@@ -96,9 +96,9 @@ else {
 
 <label class="col-md-3 control-label"> </label>
 
-<div class="col-md-6"><!-- col-md-6 Starts -->
+<div class="col-md-8"><!-- col-md-6 Starts -->
 
-<input type="submit" name="submit" value="Insert Term" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Insert Term" class="btn btn-primary form-control mx-auto" >
 
 </div><!-- col-md-6 Ends -->
 

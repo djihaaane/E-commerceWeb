@@ -139,7 +139,20 @@ font-size:40px;
 line-height:normal;
 }
 
+.panel-blue > .panel-heading{
+color:#fff;
+background-color:#1a0f91;
+height: 105px;
 
+}
+
+.panel-blue > a{
+color:#1a0f91;
+}
+.panel-blue {
+    border-radius: 15px;
+
+}
 
 
 /* Admin Profile Styles */
