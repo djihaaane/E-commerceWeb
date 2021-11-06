@@ -7,8 +7,29 @@ html {
 
 body {
   margin: 0
+  
 }
+.btnn btn--basket{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+ 
 
+}
 article, aside, footer, header, nav, section {
   display: block
 }
@@ -335,7 +356,7 @@ html {
 
 body {
   min-width: 1190px;
-  font-family: "Raleway", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
   background-color: white;
 }
@@ -381,6 +402,24 @@ img {
   background-color: #333
 }
 
+.page-header__topline .currency {
+  float: left;
+  min-width: 120px
+}
+
+.page-header__topline .currency__change {
+  display: block;
+  color: #777;
+  font-size: 13px;
+  line-height: 45px;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s
+}
+
+.page-header__topline .currency__change:hover {
+  color: #5e5e5e
+}
 
 .page-header__topline .login {
   float: right;
@@ -430,7 +469,7 @@ img {
 }
 
 .page-header__bottomline .logo__link {
-  margin-top: 22px;
+  margin-top: 38px;
   display: block
 }
 
@@ -449,7 +488,6 @@ img {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  right: 350px;
   margin-right: 57px
 }
 
@@ -468,11 +506,10 @@ img {
 .page-header__bottomline .main-nav .categories__link {
   position: relative;
   display: block;
-  padding-top: 27px;
-  padding-bottom: 25px;
+  padding-top: 45px;
+  padding-bottom: 53px;
   font-size: 13px;
   color: #222;
-  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   -webkit-transition: color .3s;
@@ -480,21 +517,18 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link:hover {
-  color: #a8b5c5
+  color: #00c8c8
 }
 
 .page-header__bottomline .main-nav .categories__link i {
   position: absolute;
-  top: 20px;
-   font-size: 20px;
-   font-weight:bolder;
+  top: 63px;
+  left: -5px;
   line-height: normal
 }
 
 .page-header__bottomline .main-nav .categories__link--active {
-  color: #596978
-  font-weight:bolder;
-
+  color: #00c8c8
 }
 
 .page-header .dropdown {
@@ -582,8 +616,8 @@ img {
 }
 
 .page-footer .footer-nav__col {
-  float: right;
-  width: 200px
+  float: left;
+  width: 160px
 }
 
 .page-footer .footer-nav__col--info, .page-footer .footer-nav__col--whybuy {
@@ -681,6 +715,7 @@ img {
 }
 
 .page-footer .banners {
+  padding-bottom: 56px;
   background-color: #f8f8f8
 }
 
@@ -703,17 +738,19 @@ img {
 }
 
 .page-footer .banners .banner-social {
-  height: 150px;
-  padding-top: 50px;
+  float: right;
+  width: 570px;
+  height: 200px;
+  padding-top: 80px;
   font-size: 0;
   text-align: center;
-  background-color: #a8b5c5
+  background-color: #00c8c8
 }
 
 .page-footer .banners .banner-social__link {
   display: inline-block;
   margin-right: 36px;
-  font-size: 45px;
+  font-size: 36px;
   color: #fff;
   text-decoration: none;
   -webkit-transition: color .3s;
@@ -730,24 +767,24 @@ img {
 
 .page-footer__subline {
   padding: 15px;
-  font-size: 15px;
-  color: #fff;
-  background-color: #a8b5c5
+  font-size: 13px;
+  color: #777;
+  background-color: #333
 }
 
 .page-footer__subline .copyright {
   float: left;
-  width: 250px
+  width: 300px
 }
 
 .page-footer__subline .designby {
   float: right;
-  width: 240px
+  width: 220px
 }
 
 .page-footer__subline .developer {
   float: right;
-  width: 220px
+  width: 170px
 }
 
 .brand {
@@ -819,7 +856,7 @@ img {
 }
 
 .brand__link {
-  color: #a8b5c5;
+  color: #00c8c8;
   text-decoration: none
 }
 
@@ -841,13 +878,13 @@ img {
   width: 100%;
   height: 45px;
   padding-left: 18px;
-  background-color: #a8b5c5;
+  background-color: #00c8c8;
   -webkit-transition: background-color .3s;
   transition: background-color .3s
 }
 
 .btn--basket:hover {
-  background-color: #a8b5c5
+  background-color: #009595
 }
 
 .btn--basket .icon-basket {
@@ -954,7 +991,7 @@ img {
 }
 
 .todo a:hover {
-  color: #a8b5c5;
+  color: #009595;
 }
 
 .tac {

@@ -1,7 +1,7 @@
 <footer class="page-footer">
 
 	<div class="footer-nav">
-		<div class="container clearfix">
+		<div class="container clearfix ">
 
 			<div class="footer-nav__col footer-nav__col--info">
 				<div class="footer-nav__heading">Information</div>
@@ -73,8 +73,8 @@
 			<div class="footer-nav__col footer-nav__col--contacts">
 				<div class="footer-nav__heading">Contact details</div>
 				<address class="address">
-				Head Office: Avenue Fashion.<br>
-				180-182 Regent Street, London.
+				Head Office: Dji Fashion.<br>
+				Staoueli ,Alger, Algeria.
 			</address>
 				<div class="phone">
 					Telephone:
@@ -82,7 +82,7 @@
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+					<a href="mailto:support@yourwebsite.com" class="email__addr">support@djifashion.com</a>
 				</div>
 			</div>
 
@@ -90,11 +90,6 @@
 	</div>
 
 	<div class="banners">
-		<div class="container clearfix">
-
-			<div class="banner-award">
-				<span>Award winner</span><br> Fashion awards 2016
-			</div>
 
 			<div class="banner-social">
 				<a href="#" class="banner-social__link">
@@ -112,7 +107,6 @@
 			</div>
 
 		</div>
-	</div>
 
 	<div class="page-footer__subline">
 		<div class="container clearfix">
